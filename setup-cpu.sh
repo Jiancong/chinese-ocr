@@ -1,5 +1,6 @@
-conda create -n chinese-ocr python=2.7 pip scipy numpy PIL jupyter ##运用conda 创建python环境
+conda create -n chinese-ocr python=2.7 ##运用conda 创建python环境
 source activate chinese-ocr
+pip install scipy numpy PIL jupyter -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install easydict -i https://pypi.tuna.tsinghua.edu.cn/simple/ ##选择国内源，速度更快
 pip install keras==2.0.8  -i https://pypi.tuna.tsinghua.edu.cn/simple/  
 pip install Cython opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple/ 
